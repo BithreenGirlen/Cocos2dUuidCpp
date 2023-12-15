@@ -51,7 +51,7 @@ std::string DecodeUuid(const std::string& src)
 	return strResult;
 }
 
-/*UUID編号。脚本用*/
+/*UUID編号*/
 std::string EncodeUuid(const std::string& src)
 {
 	const char Base64[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
